@@ -112,7 +112,6 @@
       "git add"
     ]
   },
-  "npmName": "react-slick",
   "npmFileMap": [
     {
       "basePath": "/dist/",
