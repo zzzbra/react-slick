@@ -20,11 +20,11 @@
     "gen": "node examples/scripts/generateExampleConfigs.js && node examples/scripts/generateExamples.js && xdg-open docs/jquery.html",
     "precommit": "lint-staged"
   },
-  "author": "Kiran Abburi",
+  "author": "Zach Brady",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/akiran/react-slick"
+    "url": "git+https://github.com/zzzbra/react-slick.git"
   },
   "keywords": [
     "slick",
@@ -121,6 +121,12 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/akiran/react-slick/issues"
+    "url": "https://github.com/zzzbra/react-slick/issues"
+  },
+  "homepage": "https://github.com/zzzbra/react-slick#readme",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "lib": "lib"
   }
 }
