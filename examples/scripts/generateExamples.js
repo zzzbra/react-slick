@@ -2,9 +2,7 @@ const fs = require("fs");
 const exampleConfigs = require("./configs.json");
 const exec = require("child_process").exec;
 
-var procCode = exec(
-  "cp -r node_modules/slick-carousel/slick/fonts node_modules/slick-carousel/slick/ajax-loader.gif docs/"
-);
+var procCode = exec("cp -r docs/");
 
 const toString = obj => {
   let ret = "{\n";
@@ -54,7 +52,7 @@ let HTMLString = `<!DOCTYPE html>
     <link rel="stylesheet" href="./slick-theme.css">
     <link rel="stylesheet" href="./docs.css">
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-    <script type="text/javascript" src="../node_modules/slick-carousel/slick/slick.min.js"></script>
+    <script type="text/javascript" src="../node_modules/@bradyz/slick-carousel/slick/slick.min.js"></script>
     <!--
     <style>
       .slick-dots li button:before {

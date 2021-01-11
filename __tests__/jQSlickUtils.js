@@ -7,7 +7,7 @@ import {
   activeSlideInLastTransition
 } from "./testUtils";
 import $ from "jquery";
-import * as slickCarousel from "slick-carousel";
+import * as slickCarousel from "@bradyz/slick-carousel";
 import util from "util";
 import js_beautify, { html as html_beautify } from "js-beautify";
 
